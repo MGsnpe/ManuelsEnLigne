@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Mes Manuels</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000000, #0a0a23, #001f3f);
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 20px;
+      background: #000;
+      box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      color: #00bfff;
+      margin: 0;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      gap: 20px;
+    }
+
+    .manuel {
+      display: block; /* pour rendre toute la boîte cliquable */
+      background: rgba(0, 0, 0, 0.7);
+      border: 1.5px solid #00bfff;
+      border-radius: 12px;
+      padding: 15px 25px;
+      width: 320px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.3em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+      box-shadow: 0 0 12px rgba(0, 191, 255, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+    }
+
+    .manuel:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 18px rgba(0, 191, 255, 0.7);
+      color: #00bfff;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📘 Mes Manuels en Ligne</h1>
+  </header>
+
+  <main>
+    <a class="manuel" href="https://mesmanuels.fr/acces-libre/9782401049697" target="_blank">📏 Maths</a>
+    <a class="manuel" href="https://mesmanuels.fr/acces-libre/9782401058927" target="_blank">⚗️ Physique</a>
+    <a class="manuel" href="https://mesmanuels.fr/acces-libre/9782017092544" target="_blank">⏳ Histoire</a>
+  </main>
+
+  <footer>
+    <p>✨ Site perso – Design moderne ✨</p>
+  </footer>
+</body>
+</html>
